@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="helloWorld">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+    <target>lightning__AppPage</target>
+    <target>lightning__RecordPage</target>
+    <target>lightning__HomePage</target>
+    </targets>
+</LightningComponentBundle>
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="helloWorld">
+  <apiVersion>52.0</apiVersion>
+  <isExposed>true</isExposed>
+  <targets>
+    <target>lightning__AppPage</target>
+    <target>lightning__RecordPage</target>
+    <target>lightning__HomePage</target>
+  </targets>
+  <sourceUrl>https://example.com/path/to/your/component/file.js</sourceUrl>
+  <resources>
+    <resource>
+      <type>CSS</type>
+      <url>/path/to/your/css/file.css</url>
+    </resource>
+    <resource>
+      <type>JS</type>
+      <url>/path/to/your/javascript/file.js</url>
+    </resource>
+  </resources>
+  <components>
+    <component>
+      <apiName>HelloWorld</apiName>
+      <template>
+          <![CDATA[{
+            "componentType": "REACT_COMPONENT",
+            "descriptorFile":"main.js",
+            "hasHelperClasses": false,
+            "implementationFile": "/path/to/your/component/file.js",
+            "renderMode": "LIGHTNING",
+            "strategy": "MIXED",
+            "usesShadowDom": true
+          }]]>
+        </template>
+    </component>
+  </components>
+</LightningComponentBundle> -->

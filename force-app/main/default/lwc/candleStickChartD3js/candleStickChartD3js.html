@@ -1,0 +1,17 @@
+<template>
+    <b>Version: 0.3</b>
+    <lightning-card title="Date Range Picker">
+        <div class="slds-p-around_medium">
+            <lightning-input type="date" label="Start Date" value={startDate} onchange={handleStartDateChange}></lightning-input>
+            <lightning-input type="date" label="End Date" value={endDate} onchange={handleEndDateChange}></lightning-input>
+        </div>
+        <div class="slds-p-around_medium">
+            <lightning-button label="Submit" onclick={handleSubmit}></lightning-button>
+        </div>
+    </lightning-card>
+    <lightning-card title="Candlestick Chart Using D3Js" icon-name="custom:custom19">
+        <div class="slds-m-around_medium slds-align_absolute-center">
+            <svg class="d3" width={svgWidth} height={svgHeight} lwc:dom="manual"></svg>
+        </div>
+    </lightning-card>
+</template>
